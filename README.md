@@ -9,3 +9,6 @@ The factory pattern wraps a constructor for different types of objects and retur
 A class cannot anticipate the type of objects it needs to create beforehand.
 A class requires its subclasses to specify the objects it creates.
 You want to localize the logic to instantiate a complex object.
+
+**Singleton Pattern:**
+Singleton desing pattern limits the number of instances of a particular object to just one the single instance is called the singleton. This is useful when exactly one object is needed to coordinate action across the system you use a singleton as the source of config settings for a web app or on the client side for aything initiated with an API key Singleton also serve as a shared resource namespace which isolate implementation code from the global namespace so as to provide a single point of access for funtions namespace in your code is a primary use of singletons a well known use case for this JQuery
